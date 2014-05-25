@@ -1,0 +1,32 @@
+{
+  "name": "git-exec",
+  "version": "0.1.0",
+  "description": "Utility module over child_process.exec for git commands.",
+  "main": "index.js",
+  "dependencies": {
+    "debug": "~0.8.1"
+  },
+  "devDependencies": {
+    "mocha": "~1.19.0",
+    "proxyquire": "~1.0.0",
+    "should": "~3.3.2"
+  },
+  "scripts": {
+    "test": "mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/alessioalex/git-execute"
+  },
+  "keywords": [
+    "git",
+    "exec",
+    "child_process"
+  ],
+  "author": "Alexandru Vladutu <alexandru.vladutu@gmail.com> (http://careers.stackoverflow.com/alessioalex)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/alessioalex/git-execute/issues"
+  },
+  "homepage": "https://github.com/alessioalex/git-execute"
+}
